@@ -1,0 +1,81 @@
+body {
+    background-image: url('123.webp'); 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 100vh; 
+    margin: 0;
+}
+
+.text-home {
+    position: absolute;
+    font-size: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-shadow: 4px 10px 15px #04c8de;
+    background-color: #00e5ff;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px;
+    background: rgba(255, 255, 255, 0.3); 
+    backdrop-filter: blur(10px); 
+    border-radius: 10px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+}
+
+.school-about {
+    color: #1f2623  ;
+    font-weight: bold;
+    position: absolute;
+    padding: 30px;
+    top: 30%;
+    font-size: 26px;
+    left: 50%;
+    transform: translateX(-50%); 
+    background: rgba(255, 255, 255, 0.3); 
+    backdrop-filter: blur(10px); 
+    border-radius: 10px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+}
+button{
+    position: absolute;
+    left: 47%;
+    top: 17%;
+    font-size: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    background: rgba(93, 165, 199, 0.3); 
+    backdrop-filter: blur(10px); 
+    border-radius: 10px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+}
+button:hover{
+    background-color: #276269;
+}
+button:active{
+    background-color: green;
+}
+
+button:hover {
+    background-color: #276269;
+    transform: scale(1.1); 
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4); 
+}
+
+button:active {
+    background-color: green;
+    transform: scale(0.95);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3); 
+}
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
